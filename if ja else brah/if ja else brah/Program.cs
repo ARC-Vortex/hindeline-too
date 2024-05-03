@@ -4,7 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Random RNG_1 = new Random();
+            Random RNG_2 = new Random();
+
+            double rng1 = Convert.ToDouble(RNG_1);
+            double rng2 = Convert.ToDouble(RNG_2);
+            if (rng1 > 0.5)
+            {
+                Console.WriteLine("Baba is you");
+                if (rng2 > 0.9)
+                {
+                    Console.WriteLine("Baba is me");
+                }
+            }
         }
     }
 }
