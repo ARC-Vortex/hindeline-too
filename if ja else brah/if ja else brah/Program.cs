@@ -16,7 +16,9 @@
                 {
                     Console.WriteLine("Baba is me");
                 }
+                Console.WriteLine("Baba is gone");
             }
+            Console.WriteLine("Ancient clocks, gah dayum");
         }
     }
 }
